@@ -10,7 +10,7 @@ cascPath = os.path.join(current_dir, "haarcascade_frontalface_default.xml")
 #cascPath = "haarcascade_eye.xml"
 faceCascade = cv2.CascadeClassifier(cascPath)
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 
 
 i = 0

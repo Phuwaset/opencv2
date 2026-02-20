@@ -8,7 +8,7 @@ cascPath = os.path.join(current_dir, "haarcascade_frontalface_default.xml")
 
 faceCascade = cv2.CascadeClassifier(cascPath)
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(2)
 
 while True:
     ret, frame = cap.read()
